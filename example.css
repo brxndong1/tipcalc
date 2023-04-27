@@ -1,0 +1,21 @@
+body {
+  
+    background-image: url("example.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .container {
+    margin: 100px auto;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 20px solid #000;
+  }
+  
+  #results {
+    display:none;
+  }
